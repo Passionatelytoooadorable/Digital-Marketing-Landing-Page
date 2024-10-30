@@ -13,11 +13,67 @@ No installation is required to view this website, as it is deployed on a web ser
 
 If you would like to run the website locally, clone the repository and open the index.html file in a web browser.
 
-# Usage
-The website provides information about grow your business and benefits, and offers a simple way to download the software for both Apple and Android devices. The website is designed to be easy to use and visually appealing.
+## Contribution
 
-# Contributing
-Contributions to the codebase are welcome. Please open a pull request with your proposed changes.
+We welcome contributions from the community! Before contributing, please review our [Contribution Guidelines](./Contributing.md) to get started.
 
-# License
-This project is licensed under the MIT License.
+## Local development
+
+### Fork the repo
+
+>To contribute to this Discord-Clone, you must first fork the [Discord-Clone](https://github.com/Yeasir0032/Discord-Clone) repo.
+
+### Clone the repo
+
+1. Clone your GitHub forked repo:
+
+   ```sh
+   git clone https://github.com/<github_username>/Discord-Clone
+   ```
+
+2. Go to the Discord-Clone directory:
+   ```sh
+   cd discord-clone
+   ```
+
+### Install dependencies
+
+1. Install the dependencies in the root of the repo:
+
+   ```sh
+   npm install # install dependencies
+   ```
+
+2. Copy the example `.env.local.example` to `.env.local`
+
+   ```sh
+   .env.local.example
+   ```
+
+### Setup Environment variables
+
+- Create a .env.local in your root directory
+- Visit [Supabase](https://supabase.com/dashboard/) website to create a project, then get its base URL and base anon key.
+- Visit [UploadThing](https://uploadthing.com/dashboard) website to create a new app and get its app ID and secret key.
+- Visit [ClerkJS](https://clerk.com/docs/references/javascript/overview) website to create a new app and get its public key and secret key.
+- Visit [LiveKit](https://livekit.io/) website to create a new app and get its public key, URL, and secret key.
+- Paste the credentials in the respective positions.
+- Keep the rest as it is.
+
+### Testing
+
+To start a development server
+
+```sh
+npm run dev # start all the applications
+```
+
+>Visit [http://localhost:3000/](http://localhost:3000/)
+
+### Deployment
+
+>For deployment use services like **Railway** , **Digital Ocean**, **AWS**, **Google Cloud**, **Azure**, etc.
+
+
+### Show some ❤️ by starring this awesome repository!
+
