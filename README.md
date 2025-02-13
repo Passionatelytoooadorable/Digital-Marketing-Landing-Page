@@ -19,22 +19,6 @@ We welcome contributions from the community! Before contributing, please review 
 
 ## Local development
 
-### Fork the repo
-
->To contribute to this Discord-Clone, you must first fork the [Discord-Clone](https://github.com/Yeasir0032/Discord-Clone) repo.
-
-### Clone the repo
-
-1. Clone your GitHub forked repo:
-
-   ```sh
-   git clone https://github.com/<github_username>/Discord-Clone
-   ```
-
-2. Go to the Discord-Clone directory:
-   ```sh
-   cd discord-clone
-   ```
 
 ### Install dependencies
 
